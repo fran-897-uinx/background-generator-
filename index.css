@@ -1,0 +1,103 @@
+ body{
+    font: "Times New Roman",;
+    text-align: end;
+    letter-spacing: .5em;
+    top:15%;
+    color:rgba(0, 0, 0, .5);
+    background: rgb(2, 141, 141);
+    text-transform: upperCase;
+}
+h1{
+    color:white;
+    font: 3.5em ;
+    font-style: italic;
+    font-language-override: normal;
+    animation-name:color;
+    animation-delay: 2s;
+    animation-duration: 6s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+    width:100%;
+    text-transform: upperCase;
+transform: ease infinite;
+    animation: color 10s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        color: black;
+    }
+    25%{
+        color:brown ;
+    }
+    50%{
+color: darkred;
+    }
+
+    75%{
+        color: chocolate;
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+
+/* h3{
+    color:rgba(0,0,0, 0.5);
+    font: 900 1em "raleway", sans-serif;
+    text-align:center;
+    text-transform: upperCase;
+    letter-spacing: 0.02em;;
+} */
+
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hop{
+    width: 500px;
+    margin-left: 12px;
+}
+
+.box{
+    display: flex;
+    padding: 15px;
+    
+}
+
+picture{
+    margin: 10px;
+    border: 1px solid;
+    border-color: rgb(144, 144, 145);
+    padding: 9px;
+    background-color: aliceblue;
+}
+
+picture img{
+    width: 600px;
+}
+
+h4{
+    text-transform: capitalize;
+}
+#hp{
+   margin-top: 35px; 
+}
+
+.page{
+width: 300px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    text-align: center;
+    margin: 4px;
+    box-shadow:4px 4px 10px 2px rgba(0,12,3,4) ;
+    
+}
+
+picture:hover{
+    transform: scale(1.1);
+}
+
