@@ -1,2 +1,3 @@
 # background-generator-
-this is background-color 
+
+this is a background-color
